@@ -15,3 +15,11 @@ A ferramenta de Dataviz utilizada para construção do dashboard foi o Looker St
 ### :chart_with_upwards_trend: Dashboard
 
 O Dashboard foi construído com as seguintes vizualizações:
+- **Gráfico de Linha: Evolução dos Usuários da Internet:** demonstra a porcentagem da população argentina que usa a internet ao longo do tempo.
+- **Gráfico de Linha: Comparativo de Assinaturas:** demonstra a comparação entre assinaturas de banda larga fixa e assinaturas de telefonia móvel.
+- **Gráfico de Barras: Crescimento de Assinaturas de Banda Larga Fixa:** demonstra o crescimento do número de assinaturas de banda larga fixa ao longo dos anos.
+- **Gráfico de Dispersão: Usuários da Internet vs. PIB per capita:** demonstra a correlação entre o acesso à internet e o desenvolvimento econômico.
+
+### :bulb: Ponto de melhoria
+
+Utilização da API do site do Banco Mundial para extração dos dados.
