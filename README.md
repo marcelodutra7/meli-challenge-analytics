@@ -23,3 +23,14 @@ O Dashboard foi construído com as seguintes vizualizações:
 ### :bulb: Ponto de melhoria
 
 Utilização da API do site do Banco Mundial para extração dos dados.
+
+### :globe_with_meridians: Referências informativas
+
+- https://www.argentina.gob.ar/noticias/mi-pueblo-conectado-el-programa-federal-que-llevara-acceso-internet-mas-de-35-millones-de​
+- https://es.wikipedia.org/wiki/Infraestructura_de_Argentina
+- https://countrymeters.info/pt/Argentina
+- https://es.wikipedia.org/wiki/Internet_en_la_Argentina
+- https://brechacero.com/bandas-medias-balance-entre-cobertura-y-capacidad-para-banda-ancha-movil/
+- https://www.bloomberglinea.com.br/internacional/crescimento-de-fintechs-muda-o-mercado-na-argentina-e-reduz-o-uso-de-dinheiro-vivo/
+- https://www.telesemana.com/blog/2024/07/16/panorama-de-la-banda-ancha-en-la-argentina-crece-la-fibra-optica-pero-concentrada-en-las-grandes-ciudades/
+- https://www.tecmundo.com.br/internet/33428-internet-contribui-com-ate-2-5-do-pib-da-argentina-brasil-e-mexico.htm?ab=true&
