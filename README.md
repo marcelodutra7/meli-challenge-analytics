@@ -1,6 +1,6 @@
 # meli-data-challenge
 
-### :computer: Desafio
+### :rocket: Desafio
 
 Construção de um dashboard de visualização de dados analisando a evolução da internet na Argentina abordando seu crescimento, usuários, assinaturas dentre outros fatores e explicando suas causas. 
 
