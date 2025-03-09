@@ -2,7 +2,7 @@
 
 ### :computer: Desafio
 
-Construção de um dashboard de visualização de dados analisando a evolução da internet, seu crescimento, usuários, assinaturas e outros fatores na Argentina e explicando suas causas. 
+Construção de um dashboard de visualização de dados analisando a evolução da internet na Argentina abordando seu crescimento, usuários, assinaturas dentre outros fatores e explicando suas causas. 
 
 ### :computer_mouse: Fonte de dados
 
