@@ -10,7 +10,7 @@ A fonte de dados utilizada foi o site do Banco Mundial: https://www.worldbank.or
 
 ### :wrench: Ferramenta
 
-A ferramenta de Dataviz utilizada para construção do dashboard foi o Looker Studio. O dashboard está disponível no seguinte link público: .
+A ferramenta de Dataviz utilizada para construção do dashboard foi o Looker Studio. O dashboard está disponível no seguinte link público: https://lookerstudio.google.com/s/lGi4haIqg_I.
 
 ### :chart_with_upwards_trend: Dashboard
 
