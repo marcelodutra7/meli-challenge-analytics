@@ -1,12 +1,12 @@
 # meli-data-challenge
 
-### Desafio
+### :computer: Desafio
 
 Construção de um dashboard de visualização de dados analisando a evolução da internet, seu crescimento, usuários, assinaturas e outros fatores na Argentina e explicando suas causas. 
 
-### Fonte de dados
+### :computer_mouse: Fonte de dados
 
-A fonte de dados utilizada foi o site do Banco Mundial: https://www.worldbank.org/.
+A fonte de dados utilizada foi o site do Banco Mundial: https://www.worldbank.org/. Os dados foram extraídos do site em arquivo no formato CSV.
 
 ### :wrench: Ferramenta
 
