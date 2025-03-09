@@ -12,6 +12,6 @@ A fonte de dados utilizada foi o site do Banco Mundial: https://www.worldbank.or
 
 A ferramenta de Dataviz utilizada para construção do dashboard foi o Looker Studio. O dashboard está disponível no seguinte link público: .
 
-### Dashboard
+### 📈 Dashboard
 
 O Dashboard foi construído com as seguintes vizualizações:
