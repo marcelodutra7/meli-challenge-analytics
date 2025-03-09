@@ -1,4 +1,4 @@
-# meli-data-challenge
+# meli-challenge-analytics
 
 ### :rocket: Desafio
 
