@@ -8,7 +8,7 @@ Construção de um dashboard de visualização de dados analisando a evolução 
 
 A fonte de dados utilizada foi o site do Banco Mundial: https://www.worldbank.org/.
 
-### Ferramenta
+### :wrench: Ferramenta
 
 A ferramenta de Dataviz utilizada para construção do dashboard foi o Looker Studio. O dashboard está disponível no seguinte link público: .
 
