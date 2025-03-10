@@ -1,3 +1,4 @@
+-- Criação da tabela CUSTOMER
 CREATE TABLE customer (
   customer_id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'Identificador único do cliente',
   name VARCHAR(255) NOT NULL COMMENT 'Nome do cliente',
@@ -17,6 +18,7 @@ CREATE TABLE customer (
   date_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'Data e hora da última atualização do registro'
 );
 
+-- Criação da tabela CATEGORY
 CREATE TABLE category (
   category_id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'Identificador único da categoria',
   name VARCHAR(255) NOT NULL UNIQUE COMMENT 'Nome da categoria',
@@ -28,6 +30,7 @@ CREATE TABLE category (
   FOREIGN KEY (parent_id) REFERENCES category(category_id) ON DELETE SET NULL
 );
 
+-- Criação da tabela ITEM
 CREATE TABLE item (
   item_id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'Identificador único do item',
   category_id INT NOT NULL COMMENT 'Identificador da categoria a que o item pertence',
@@ -40,6 +43,7 @@ CREATE TABLE item (
   FOREIGN KEY (category_id) REFERENCES category(category_id) ON DELETE CASCADE
 );
 
+-- Criação da tabela ORDERS
 CREATE TABLE orders (
   order_id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'Identificador único do pedido',
   customer_id INT NOT NULL COMMENT 'Identificador do cliente que fez o pedido',
@@ -57,8 +61,10 @@ CREATE TABLE orders (
   FOREIGN KEY (item_id) REFERENCES item(item_id) ON DELETE CASCADE
 );
 
+-- Criação da tabela ITEM_DAILY_HISTORY
+-- Essa tabela será limpa e alimentada em cada execução da procedure SP_GENERATE_ITEM_HISTORY
 CREATE TABLE item_daily_history (
-    date DATE NOT NULL COMMENT 'Data do snapshot',
+    date DATE NOT NULL COMMENT 'Data do histórico diário dos itens',
     item_id INT NOT NULL COMMENT 'Identificador do item',
     value DECIMAL(10,2) NOT NULL COMMENT 'Preço do item no final do dia',
     status VARCHAR NOT NULL COMMENT 'Status do item no final do dia',
@@ -67,6 +73,7 @@ CREATE TABLE item_daily_history (
     FOREIGN KEY (item_id) REFERENCES item(item_id) ON DELETE CASCADE
 );
 
+-- Criação da procedure SP_GENERATE_ITEM_HISTORY que vai limpar e popular a ITEM_DAILY_HISTORY
 CREATE PROCEDURE sp_generate_item_history(IN p_date DATE)
 BEGIN
     -- Remove registros do mesmo dia para garantir reprocessamento

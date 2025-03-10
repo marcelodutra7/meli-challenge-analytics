@@ -43,6 +43,7 @@ FROM (
 WHERE ranking <= 5
 ORDER BY ano, mes, ranking;
 
--- TAREFA 02
+-- TAREFA 03
 
+-- executa a procedure SP_GENERATE_ITEM_HISTORY para limpar e popular a tabela ITEM_DAILY_HISTORY
 CALL item_daily_history('2025-03-09'); -- Gera histórico para o dia 09/03/2025
